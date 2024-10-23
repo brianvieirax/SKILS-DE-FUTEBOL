@@ -1,0 +1,100 @@
+html, body {
+  background-color: #000000;
+  font-family: "Zen Loop", cursive;
+  color: rgb(0,0,0);
+  margin: 2px;
+  margin-bottom:30px; 
+}
+
+.inicio{
+  background: rgb(255,255,255);
+  fonte: 35px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 2px 5px 5px black
+}
+ 
+header{
+font-family: "Fleur De Leah", cursive; 
+color: rgb(134,86,134); 
+font-size: 80px;
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 0px;
+  border-bottom: 3px solid white;
+}
+
+p{
+  text-align: justify;
+}
+
+.video{
+  margin-right: 50px;
+}
+
+.alinha{
+  align-cotent: center;
+}
+
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+ 
+img{
+  height: 200px;
+}
+
+.outros{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  
+}
+h3{
+  booerder-bottom: 2px solid white;
+}
+.outros img{
+  opacity: 0.5;
+  gap: 10px;
+}
+
+.outros img:hover{
+  opacity: 1.0;
+  border: 3px solid black;
+  box-shadow: 2px 5px 5px grey;
+}
+    
+
+
+header img{
+  position: relative;
+  z-index: -1;
+  margin-left: 400px;
+}
+
+footer{
+  font-family: "Fleur De Leah", cursive; 
+  color:white;
+ padding-left: 450px;
+  background-color: #9C27B0
+    rgba(255, 192,255,0.562);
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height: 2em;
+  padding: 20px;
+  font-size: 1.5em;
+  display: block;
+  margin 0 auto;
+  text-align: center;
+  aling-content: center;
+  padding-left: 450px;
+}
